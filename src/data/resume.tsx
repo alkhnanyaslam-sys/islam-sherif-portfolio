@@ -16,10 +16,10 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Egypt",
 
   description:
-    "Frontend Developer & AI Enthusiast. I build modern web experiences, useful applications, and intelligent solutions.",
+    "Computer Science Student & Aspiring Software Developer focused on Web Development, AI, and building real-world projects.",
 
   summary:
-    "I’m Islam Sherif, a Computer Science student and aspiring software developer from Egypt. I’m passionate about web development, React, JavaScript, Python, and Artificial Intelligence. I enjoy turning ideas into real projects and continuously improving my development skills.",
+    "I'm Islam Sherif, a Computer Science student from Egypt with a strong interest in software development, modern web technologies, and Artificial Intelligence. I enjoy turning ideas into practical projects and learning by building. My current focus is on React, Next.js, JavaScript, Python, Node.js, and API-based applications. I'm continuously improving my programming fundamentals while exploring AI, automation, and scalable digital solutions.",
 
   avatarUrl: "/me.png",
 
@@ -71,10 +71,31 @@ export const DATA = {
         navbar: true,
       },
 
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://eg.linkedin.com/in/eslam-sherif-487309409",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
+
+      Instagram: {
+        name: "Instagram",
+        url: "https://www.instagram.com/v_es4l/",
+        icon: Icons.globe,
+        navbar: true,
+      },
+
+      Telegram: {
+        name: "Telegram",
+        url: "https://t.me/v_es4",
+        icon: Icons.globe,
+        navbar: true,
+      },
+
       WhatsApp: {
         name: "WhatsApp",
         url: "https://wa.me/201016295024",
-        icon: Icons.globe,
+        icon: Icons.whatsapp,
         navbar: true,
       },
 
@@ -87,10 +108,6 @@ export const DATA = {
     },
   },
 
-  /*
-   * No professional work experience yet.
-   * We don't add fake companies or fake job titles.
-   */
   work: [],
 
   education: [
@@ -112,13 +129,13 @@ export const DATA = {
       active: true,
 
       description:
-        "A modern developer portfolio built with Next.js, React, Tailwind CSS, Shadcn UI and Magic UI. Designed to showcase my skills, projects and journey as a developer.",
+        "A modern personal portfolio built with Next.js, React, Tailwind CSS, Shadcn UI and Magic UI to showcase my development journey, skills and projects.",
 
       technologies: [
         "Next.js",
         "React",
         "JavaScript",
-        "TailwindCSS",
+        "Tailwind CSS",
         "Shadcn UI",
         "Magic UI",
       ],
@@ -136,20 +153,20 @@ export const DATA = {
     },
 
     {
-      title: "Telegram Bots",
+      title: "Telegram Automation Projects",
       href: "https://github.com/alkhnanyaslam-sys",
       dates: "2025 - Present",
       active: true,
 
       description:
-        "A collection of Telegram automation projects focused on bots, community management, useful utilities and interactive experiences.",
+        "A collection of Telegram automation projects focused on bots, community tools, useful utilities and interactive user experiences.",
 
       technologies: [
         "Python",
-        "Telegram API",
         "Pyrogram",
-        "Bots",
+        "Telegram API",
         "Automation",
+        "APIs",
       ],
 
       links: [
@@ -171,7 +188,7 @@ export const DATA = {
       active: true,
 
       description:
-        "A Telegram-based Quran project focused on delivering Quran content and audio through an automated bot experience.",
+        "A Telegram project designed to deliver Quran content and audio through an automated bot experience, with a focus on reliability and ease of use.",
 
       technologies: [
         "Python",
@@ -194,19 +211,19 @@ export const DATA = {
     },
 
     {
-      title: "AI & Automation Projects",
+      title: "AI & Automation Experiments",
       href: "https://github.com/alkhnanyaslam-sys",
       dates: "2026 - Present",
       active: true,
 
       description:
-        "Exploring Artificial Intelligence, automation and developer tools while building practical projects and experimenting with modern technologies.",
+        "An ongoing collection of experiments and projects exploring Artificial Intelligence, APIs, automation and developer tools.",
 
       technologies: [
         "Python",
-        "AI",
-        "Automation",
+        "Artificial Intelligence",
         "APIs",
+        "Automation",
         "JavaScript",
       ],
 
@@ -223,9 +240,5 @@ export const DATA = {
     },
   ],
 
-  /*
-   * No fake hackathons or awards.
-   * We'll add real achievements here later.
-   */
   hackathons: [],
 } as const;
