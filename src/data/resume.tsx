@@ -16,10 +16,10 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Egypt",
 
   description:
-    "Computer Science Student & Aspiring Software Developer focused on Web Development, AI, and building real-world projects.",
+    "Frontend Developer & AI Enthusiast building modern web experiences, intelligent tools, and automation projects.",
 
   summary:
-    "I'm Islam Sherif, a Computer Science student from Egypt with a strong interest in software development, modern web technologies, and Artificial Intelligence. I enjoy turning ideas into practical projects and learning by building. My current focus is on React, Next.js, JavaScript, Python, Node.js, and API-based applications. I'm continuously improving my programming fundamentals while exploring AI, automation, and scalable digital solutions.",
+    "I’m Islam Sherif, a Computer Science student and aspiring software developer from Egypt. I’m passionate about building modern web experiences, exploring Artificial Intelligence, and creating practical automation tools. I work with technologies like React, Next.js, JavaScript, Python, and Node.js, and I enjoy turning ideas into real-world projects while continuously improving my skills.",
 
   avatarUrl: "/me.png",
 
@@ -80,15 +80,15 @@ export const DATA = {
 
       Instagram: {
         name: "Instagram",
-        url: "https://www.instagram.com/v_es4l/",
-        icon: Icons.globe,
+        url: "https://www.instagram.com/v_es4l",
+        icon: Icons.instagram,
         navbar: true,
       },
 
       Telegram: {
         name: "Telegram",
         url: "https://t.me/v_es4",
-        icon: Icons.globe,
+        icon: Icons.telegram,
         navbar: true,
       },
 
@@ -108,13 +108,14 @@ export const DATA = {
     },
   },
 
+  // No professional work experience yet.
   work: [],
 
   education: [
     {
       school: "Faculty of Computers and Information",
       href: "#",
-      degree: "Computer Science",
+      degree: "Computer Science Student",
       logoUrl: "",
       start: "2026",
       end: "Present",
@@ -129,7 +130,7 @@ export const DATA = {
       active: true,
 
       description:
-        "A modern personal portfolio built with Next.js, React, Tailwind CSS, Shadcn UI and Magic UI to showcase my development journey, skills and projects.",
+        "A modern personal portfolio built with Next.js, React, Tailwind CSS, Shadcn UI, and Magic UI to showcase my skills, projects, and development journey.",
 
       technologies: [
         "Next.js",
@@ -153,25 +154,25 @@ export const DATA = {
     },
 
     {
-      title: "Telegram Automation Projects",
+      title: "Telegram Bots & Automation",
       href: "https://github.com/alkhnanyaslam-sys",
       dates: "2025 - Present",
       active: true,
 
       description:
-        "A collection of Telegram automation projects focused on bots, community tools, useful utilities and interactive user experiences.",
+        "A collection of Telegram automation projects focused on useful bots, community management, interactive features, and automated workflows.",
 
       technologies: [
         "Python",
-        "Pyrogram",
         "Telegram API",
+        "Pyrogram",
         "Automation",
         "APIs",
       ],
 
       links: [
         {
-          type: "Source",
+          type: "GitHub",
           href: "https://github.com/alkhnanyaslam-sys",
           icon: <Icons.github className="size-3" />,
         },
@@ -188,7 +189,7 @@ export const DATA = {
       active: true,
 
       description:
-        "A Telegram project designed to deliver Quran content and audio through an automated bot experience, with a focus on reliability and ease of use.",
+        "A Telegram automation project focused on delivering Quran content and audio through an automated and user-friendly bot experience.",
 
       technologies: [
         "Python",
@@ -200,7 +201,7 @@ export const DATA = {
 
       links: [
         {
-          type: "Source",
+          type: "GitHub",
           href: "https://github.com/alkhnanyaslam-sys",
           icon: <Icons.github className="size-3" />,
         },
@@ -211,25 +212,25 @@ export const DATA = {
     },
 
     {
-      title: "AI & Automation Experiments",
+      title: "AI & Automation",
       href: "https://github.com/alkhnanyaslam-sys",
       dates: "2026 - Present",
       active: true,
 
       description:
-        "An ongoing collection of experiments and projects exploring Artificial Intelligence, APIs, automation and developer tools.",
+        "Exploring Artificial Intelligence, APIs, automation, and developer tools while building practical projects and experimenting with modern technologies.",
 
       technologies: [
         "Python",
-        "Artificial Intelligence",
-        "APIs",
+        "AI",
         "Automation",
+        "APIs",
         "JavaScript",
       ],
 
       links: [
         {
-          type: "Source",
+          type: "GitHub",
           href: "https://github.com/alkhnanyaslam-sys",
           icon: <Icons.github className="size-3" />,
         },
@@ -240,5 +241,6 @@ export const DATA = {
     },
   ],
 
+  // No fake hackathons or awards.
   hackathons: [],
 } as const;
