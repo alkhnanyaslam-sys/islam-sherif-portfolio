@@ -108,7 +108,6 @@ export const DATA = {
     },
   },
 
-  // No professional work experience yet.
   work: [],
 
   education: [
@@ -241,6 +240,5 @@ export const DATA = {
     },
   ],
 
-  // No fake hackathons or awards.
   hackathons: [],
 } as const;
