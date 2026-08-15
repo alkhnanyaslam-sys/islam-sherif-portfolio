@@ -24,43 +24,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
 
   title: {
-    default: "Islam Sherif | Frontend Developer & AI Enthusiast",
-    template: "%s | Islam Sherif",
+    default: DATA.name,
+    template: `%s | ${DATA.name}`,
   },
 
-  description:
-    "Islam Sherif — Frontend Developer & AI Enthusiast building modern web experiences, applications, automation tools and intelligent solutions.",
-
-  keywords: [
-    "Islam Sherif",
-    "Frontend Developer",
-    "React Developer",
-    "JavaScript Developer",
-    "Next.js Developer",
-    "AI Enthusiast",
-    "Web Developer",
-    "Egypt Developer",
-    "React",
-    "Next.js",
-    "JavaScript",
-    "Python",
-  ],
-
-  authors: [
-    {
-      name: "Islam Sherif",
-      url: DATA.url,
-    },
-  ],
-
-  creator: "Islam Sherif",
+  description: DATA.description,
 
   openGraph: {
-    title: "Islam Sherif | Frontend Developer & AI Enthusiast",
-    description:
-      "Frontend Developer & AI Enthusiast building modern web experiences and intelligent solutions.",
+    title: DATA.name,
+    description: DATA.description,
     url: DATA.url,
-    siteName: "Islam Sherif Portfolio",
+    siteName: DATA.name,
     locale: "en_US",
     type: "website",
   },
@@ -78,14 +52,9 @@ export const metadata: Metadata = {
   },
 
   twitter: {
+    title: DATA.name,
+    description: DATA.description,
     card: "summary_large_image",
-    title: "Islam Sherif | Frontend Developer & AI Enthusiast",
-    description:
-      "Frontend Developer & AI Enthusiast building modern web experiences and intelligent solutions.",
-  },
-
-  icons: {
-    icon: "/favicon.ico",
   },
 };
 
@@ -103,14 +72,9 @@ export default function RootLayout({
           geistMono.variable
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem={false}
-        >
+        <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
-
-            <div className="absolute inset-0 top-0 left-0 right-0 h-[120px] overflow-hidden z-0 pointer-events-none">
+            <div className="absolute inset-0 top-0 left-0 right-0 h-[100px] overflow-hidden z-0">
               <FlickeringGrid
                 className="h-full w-full"
                 squareSize={2}
@@ -129,7 +93,6 @@ export default function RootLayout({
             </div>
 
             <Navbar />
-
           </TooltipProvider>
         </ThemeProvider>
       </body>
